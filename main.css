@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url('https://wpassets.brainstation.io/app/uploads/2017/04/13100509/Netflix-Background.jpg');
+    position: absolute;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+button.login-btn{
+    width: 90px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.text-container{
+    color: white;
+    margin: auto;
+    width: 1200px;
+    margin-top: 190px;
+    display: grid;
+    gap: 1rem;
+    text-align: center;
+}
+
+.text-container h1{
+    font-size: 50px;
+    line-height: 5rem;
+}
+
+.text-container h4{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.text-container h5{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.form{
+ 
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+input{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 400px;
+    border: none;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    border: 1px solid rgb(248, 245, 245);
+   
+   }
+
+    button.getstarted-btn{
+      padding: 0.5rem 1rem;
+    background-color: #e50914;
+    border: none;
+    text-align:center;
+    cursor: pointer;
+    color: white;
+    border-radius: 0.2rem;
+    font-weight: bolder;
+    font-size: 1.05rem;
+    width: 200px;
+  }
+

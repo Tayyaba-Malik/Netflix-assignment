@@ -1,0 +1,122 @@
+Reset some default browser styles
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #141414;
+    color: #fff;
+}
+
+/* Header styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #141414;
+}
+
+header .logo img {
+    height: 25px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+header .user-profile img {
+    height: 30px;
+    border-radius: 3px;
+}
+
+/* Hero section styling */
+.hero {
+    background: url('hero-background.jpg') no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.hero-content form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content input[type="email"] {
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.hero-content button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #e50914;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Content section styling */
+.content {
+    padding: 50px;
+}
+
+.content h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.content .row {
+    display: flex;
+    overflow-x: scroll;
+    padding: 20px 0;
+}
+
+.content .row .card {
+    flex: 0 0 auto;
+    margin-right: 20px;
+}
+
+.content .row .card img {
+    width: 200px;
+    border-radius: 5px;
+}
+
+
